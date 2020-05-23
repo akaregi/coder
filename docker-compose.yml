@@ -1,0 +1,9 @@
+coder:
+    build: "./"
+    container_name: "compiler"
+    hostname: "docker"
+    working_dir: "/workspace"
+    volumes: 
+        - "./data:/workspace"
+    tty: true
+    stdin_open: true
