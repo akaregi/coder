@@ -1,7 +1,5 @@
 FROM ubuntu:focal
 
-ENV TERM xterm-mono
-
 ENV DEBIAN_FRONTEND noninteractive
 RUN sed -i.bak -e "s%http://[^ ]\+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list && \
     apt update && \

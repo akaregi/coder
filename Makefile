@@ -18,3 +18,12 @@ stop:
 .PHONY: exec
 exec:
 	docker exec -it compiler /bin/bash
+
+# ifeq (run,$(firstword $(MAKECMDGOALS)))
+#   RUN_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+#   $(eval $(RUN_ARGS):;@:)
+# endif
+# 
+# .PHONY: run
+# run:
+# 	docker-compose run coder ./tasks/clang $(RUN_ARGS)
