@@ -113,4 +113,5 @@ Cargo.lock
 
 # End of https://www.gitignore.io/api/c,c++,rust,cmake,bazel
 
+.vscode
 bin/
