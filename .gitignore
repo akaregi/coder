@@ -115,3 +115,4 @@ Cargo.lock
 
 .vscode
 bin/
+build/
