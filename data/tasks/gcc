@@ -1,3 +1,0 @@
-#!/bin/sh
-g++ -Wall -Wextra -O2 src/$1.cpp -o bin/$1
-bin/$1
