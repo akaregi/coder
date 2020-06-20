@@ -1,11 +1,7 @@
 project('coder', 'cpp',
     version : '0.1.0',
     license : 'Apache-2.0',
-    meson_version : '>=0.53.2',
-    default_options : [
-        'cpp_std=c++17',
-        'warning_level=3'
-    ]
+    meson_version : '>=0.53.2'
 )
 
 add_global_arguments(
@@ -39,3 +35,7 @@ executable('T', 'T.cpp')
 executable('U', 'U.cpp')
 executable('V', 'V.cpp')
 executable('W', 'W.cpp')
+# executable('X', 'X.cpp')
+executable('Y', 'Y.cpp')
+executable('Z', 'Z.cpp')
+executable('AA', 'AA.cpp')
